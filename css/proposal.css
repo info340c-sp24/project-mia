@@ -1,0 +1,29 @@
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    display: inline-block;
+    background-color:powderblue;
+}
+h1{
+    text-align: center;
+}
+h2{
+    background-color:plum;
+    padding-block: 10px;
+}
+h1, h3, p{
+    margin: 10px;
+}
+.overview-flexbox, .app-description-flexbox{
+    display: flex;
+
+}
+.content{
+    flex: 1;
+    background-color: powderblue;
+    margin-right: 10px;
+}
+#user-action{
+    flex: 2;
+}
