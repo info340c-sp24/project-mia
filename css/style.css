@@ -1,0 +1,56 @@
+*{
+    font-family: 'Gluten', 'Trebuchet MS', sans-serif;
+}
+h1{
+    color: #FAF9F9;
+    text-align: center;
+    font-weight: 350;
+}
+body{
+    background-color: rgb(245, 244, 244);
+}
+ul{
+    padding-top: 0.5rem;
+}
+li {
+    display: inline-block;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+a{
+    text-decoration: none;
+}
+.home-tab a{
+    color: #FAF9F9;
+}
+.archive-tab a{
+    color: #FAF9F9;
+}
+.profile-tab a{
+    color: #565B6C;
+}
+.home-tab{
+    background-color: #91AFAE;
+}
+.archive-tab{
+    background-color: #565B6C;
+}
+.profile-tab{
+    background-color: #F8D8BE;
+}
+main{
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    margin-top: -1rem;
+    background-color: #91AFAE;
+    padding: 0.5rem;
+    height: 70vh;
+}
+footer{
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    background-color: #91AFAE;
+    padding: 0.5rem;
+}
