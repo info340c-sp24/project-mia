@@ -11,9 +11,7 @@
     </head>
     <body>
       <ul class="tabs">
-        <li class="home-tab">
-          <a href="index.html">Daily Planner</a>
-        </li>
+        <li class="home-tab"><a href="index.html">Daily Planner</a></li>
         <li class="archive-tab"><a href="archive.html">Archived Planners</a></li>
         <li class="profile-tab"><a href="profile.html">Profile</a></li>
       </ul>
@@ -33,7 +31,14 @@
               <div class="checklist content">
                 <div id="checkboxes">
                   <label><h2>Checklist</h2></label>
-                  <ul>
+                  <div class="archive-loc-select">
+                    <select name="loc" id="loc-select">
+                      <option value="General">Choose where to save this planner</option>
+                      <option value="General">General</option>
+                      <option value="Favorite">Favorites</option>
+                    </select>
+                  </div>
+                  <ul aria-label="Checklist">
                     <li><input type="checkbox">text</li>
                     <li><input type="checkbox">text</li>
                     <li><input type="checkbox">text</li>
@@ -49,7 +54,11 @@
                     <div class="img-center">
                       <img src="img/flower.jpg" alt="flower">
                     </div>
-                    
+                  </section>
+                  <section class="img-diary-note-content image">
+                    <div class="img-center">
+                      <img src="img/cherry_blossom_tree.jpg" alt="flower">
+                    </div>
                   </section>
                   <section class="img-diary-note-content note">
                     <h2 class="content">Note</h2>
@@ -58,6 +67,11 @@
                 </div>
                 
                 <div class="img-diary-note-flex-bottom">
+                  <section class="img-diary-note-content image">
+                    <div class="img-center">
+                      <img src="img/cupcake.jpg" alt="flower">
+                    </div>
+                  </section>
                   <section class="img-diary-note-content diary">
                       <h2 class="content">Diary</h2>
                       <p>text</p>

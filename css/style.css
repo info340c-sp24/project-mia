@@ -18,7 +18,7 @@ h2{
 #checkboxes li{
     text-align: left;
     padding-bottom: 1rem;
-    accent-color: #709F9D;
+    accent-color: #609D9B;
 }
 #checkboxes input{
     margin-right: 1rem;
@@ -57,7 +57,7 @@ img{
     color: #565B6C;
 }
 .home-tab, .home, .home-footer{
-    background-color: #709F9D;
+    background-color: #609D9B;
 }
 .archive-tab, .archive, .archive-footer{
     background-color: #565B6C;
@@ -114,10 +114,13 @@ footer{
     background-color: #FAF9F9;
     height: 30vh;
     min-height: 200px;
+    width: 40vh;
 }
 .diary{
     background-color: #FAF9F9;
-    min-height: 20rem;
+    height: 30vh;
+    min-height: 200px;
+    flex: 2;
 }
 .diary p, .note p{
     margin-left: 2rem;
@@ -137,6 +140,20 @@ footer{
     margin-top: 20px;
     margin-bottom: auto;
     margin: 20px auto auto;
+    min-height: 150px;
+}
+@media (max-width: 700px){
+    .home, .archive, .profile, .account, footer{
+        width: 550px;
+    }
+    .login-box, .create-box{
+        width: 400px;
+    }
+}
+@media (max-width: 665px){
+    .profile footer, .account footer{
+        width: 400px;
+    }
 }
 @media(max-width: 1200px){
     .home-flexbox{
@@ -157,7 +174,7 @@ footer{
     }
 }
 .profile a{
-    color: #709F9D;
+    color: #609D9B;
  }
  
 /* Start of code gotten from GeeksforGeeks: https://www.geeksforgeeks.org/html-login-form/ */
@@ -207,7 +224,7 @@ footer{
     border: none;
     color: white;
     cursor: pointer;
-    background-color: #709F9D;
+    background-color: #609D9B;
     width: 100%;
     font-size: 16px;
 }
@@ -228,10 +245,21 @@ footer{
     margin-right: 3rem;
 }
 .archive .home-flexbox{
-    background-color: #709F9D;
+    background-color: #609D9B;
     margin-top: 3rem;
     border-radius: 10px;
 }
 .archive{
     height: fit-content;
+}
+.archive-gen-box{
+    display: flex;
+    margin-top: 6rem;
+}
+.archive-fav-box{
+    display: flex;
+    margin-top: 3rem;
+}
+.archive-gen-box h2, .archive-fav-box h2{
+    padding-left: 1rem;
 }
