@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Tabs from "./Tabs.js"
 export default function Profile(){
     return(
@@ -24,7 +25,7 @@ export default function Profile(){
                         </div>
                         </form>
                         <p>Not registered? 
-                        <a href="account.html">Create an account</a>
+                        <Link to="/account">Create an account</Link>
                         </p>
                     </div>
                 </main>

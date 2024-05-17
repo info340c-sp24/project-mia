@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Tabs from "./Tabs.js"
 export default function Archive(){
     return(
@@ -9,22 +10,21 @@ export default function Archive(){
             </header>          
             <main class="archive">
             <div class="archive-gen-box">
-                <a href="archive_gen.html">
+                <Link to="/archive_gen">
                 <img src="img/folder_icon.png" alt="folder-icon"/>
-                </a>
-                <a href="archive_gen.html">
+                </Link>
+                <Link to="/archive_gen">
                 <h2>Archived Planners - General</h2>
-                </a>
+                </Link>
             </div>
 
             <div class="archive-fav-box">
-                <a href="archive_fav.html">
+                <Link to="/archive_fav">
                 <img src="img/folder_icon.png" alt="folder-icon"/>
-                </a>
-                <a href="archive_fav.html">
+                </Link>
+                <Link to="/archive_fav">
                 <h2>Archived Planners - Favorites</h2>
-                </a>
-                <a href="index.html"></a>
+                </Link>
             </div>
             </main>
             
