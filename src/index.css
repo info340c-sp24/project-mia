@@ -1,1 +1,265 @@
-
+*{
+    font-family: 'Gluten', 'Trebuchet MS', sans-serif;
+}
+h1{
+    color: #FAF9F9;
+    text-align: center;
+    font-weight: 350;
+    padding-top: 2.5rem;
+}
+h2{
+    color: #FAF9F9;
+    font-weight: 350;
+}
+#checkboxes ul{
+    list-style: none;
+    float: left;
+}
+#checkboxes li{
+    text-align: left;
+    padding-bottom: 1rem;
+    accent-color: #609D9B;
+}
+#checkboxes input{
+    margin-right: 1rem;
+    padding-top: 1rem;
+}
+.img-diary-note-flex-container h2{
+    color: #565B6C;
+}
+body{
+    background-color: rgb(245, 244, 244);
+}
+.tabs{
+    padding-top: 0.5rem;
+}
+.tabs li {
+    display: inline-block;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;  
+}
+a{
+    text-decoration: none;
+}
+.icon{
+    display: grid;
+    place-items: center;
+}
+img{
+    height: 45px;
+    justify-content: center;
+}
+.home-tab a, .archive-tab a, .home-footer, .archive-footer{
+    color: #FAF9F9;
+}
+.profile-tab a, .profile-footer, .profile-title, .account-footer, .account-title{
+    color: #565B6C;
+}
+.home-tab, .home, .home-footer{
+    background-color: #609D9B;
+}
+.archive-tab, .archive, .archive-footer{
+    background-color: #565B6C;
+}
+.profile-tab, .profile, .profile-footer, .account, .account-footer{
+    background-color: #F8D8BE;
+}
+.home, .archive, .profile, .account{
+    margin: -1.35rem 2.5rem 0;
+    height: 85vh;
+    min-height: 630px;
+    border-top-right-radius: 10px;
+}
+footer{
+    margin: 0 2.5rem;
+}
+.home-footer, .archive-footer, .profile-footer, .account-footer{
+    padding: 0.5rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.home-flexbox{
+    display: flex;
+}
+.content{
+    flex: 1;
+    margin: 2rem;
+}
+.checklist{
+    text-align: center;
+    background-color: #FAF9F9;
+    height: 65vh;
+    border-radius: 10px;
+    min-width: 350px;
+    min-height: 335px;
+    h2{
+        color: #565B6C;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem
+    }
+}
+.checklist, .note, .diary{
+    overflow: auto;
+}
+.img-diary-note-flex-top, .img-diary-note-flex-bottom{
+    display: flex;
+}
+.img-diary-note-content{
+    flex: 1;
+    margin-top: 2rem;
+    margin-right: 2rem;
+}
+.image{
+    background-color: #FAF9F9;
+    height: 30vh;
+    min-height: 200px;
+    width: 40vh;
+}
+.diary{
+    background-color: #FAF9F9;
+    height: 30vh;
+    min-height: 200px;
+    flex: 2;
+}
+.diary p, .note p{
+    margin-left: 2rem;
+}
+.note{
+    background-color: #F8D8BE;
+}
+.img-diary-note-flex-container{
+    margin-left: 1rem;
+    min-width: 600px;
+}
+.img-center{
+    text-align: center;
+}
+.image img{
+    height: 25vh;
+    margin-top: 20px;
+    margin-bottom: auto;
+    margin: 20px auto auto;
+    min-height: 150px;
+}
+@media (max-width: 700px){
+    .home, .archive, .profile, .account, footer{
+        width: 550px;
+    }
+    .login-box, .create-box{
+        width: 400px;
+    }
+}
+@media (max-width: 665px){
+    .profile footer, .account footer{
+        width: 400px;
+    }
+}
+@media(max-width: 1200px){
+    .home-flexbox{
+        flex-wrap: wrap;
+        padding-bottom: 1rem;
+    }
+    .home, .archive, .profile{
+        height: fit-content;
+    }
+    .img-diary-note-content{
+        margin-top: 2rem;
+        margin-right: 1rem;
+    }
+    .img-diary-note-flex-container{
+        margin-left: 1rem;
+        flex-grow: 2;
+        min-width: 200px;
+    }
+}
+.profile a{
+    color: #609D9B;
+ }
+ 
+/* Start of code gotten from GeeksforGeeks: https://www.geeksforgeeks.org/html-login-form/ */
+.profile-login, .account-create{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+.login-box, .create-box {
+    background-color: #FAF9F9;
+    border-radius: 15px;
+    padding: 10px 20px;
+    width: 500px;
+    text-align: center;
+}
+.profile label, .account label {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #565B6C;
+    font-weight: bold;
+}
+ .profile h2, .account h2{
+    color: #565B6C;
+ }
+ 
+.profile input, .account input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+ 
+.profile button, .account button {
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #609D9B;
+    width: 100%;
+    font-size: 16px;
+}
+ 
+.profile .wrap, .account .wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* End of code gotten from GeeksforGeeks: https://www.geeksforgeeks.org/html-login-form/*/
+.archive .date-select{
+    display: flex;
+    margin-top: 5rem;
+    justify-content: center;
+    color: #FAF9F9;
+}
+.archive .date-flexbox{
+    margin-right: 3rem;
+}
+.archive .home-flexbox{
+    background-color: #609D9B;
+    margin-top: 3rem;
+    border-radius: 10px;
+}
+.archive{
+    height: fit-content;
+}
+.archive-gen-box{
+    display: flex;
+    margin-top: 6rem;
+}
+.archive-fav-box{
+    display: flex;
+    margin-top: 3rem;
+}
+.archive-gen-box h2, .archive-fav-box h2{
+    padding-left: 1rem;
+}

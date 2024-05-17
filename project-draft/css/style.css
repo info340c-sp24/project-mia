@@ -263,3 +263,6 @@ footer{
 .archive-gen-box h2, .archive-fav-box h2{
     padding-left: 1rem;
 }
+.button-div{
+    float:left;
+}
