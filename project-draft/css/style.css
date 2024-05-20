@@ -266,3 +266,9 @@ footer{
 .button-div{
     float:left;
 }
+.form{
+    display: flex;
+}
+#task-input{
+    flex-grow: 2;
+}
