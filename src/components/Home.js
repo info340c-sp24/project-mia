@@ -37,6 +37,7 @@ export default function Home(){
                 </div>
             </main>
             </div>
+            
             <footer>
             <div className="home-footer">
                 <p>Website designed and developed by Mia Sohn</p>

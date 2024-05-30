@@ -5,7 +5,6 @@ export default function Profile(){
         <div>
             <Tabs/>
             <div class="profile">
-
                 <header>
                 <h1 class="profile-title">Daily Planner</h1>
                 </header>   
@@ -29,8 +28,8 @@ export default function Profile(){
                         </p>
                     </div>
                 </main>
-                 
             </div>
+
             <footer class="profile-footer">
                 <div class="container">
                 <p>Website designed and developed by Mia Sohn</p>

@@ -24,6 +24,7 @@ export default function Account(){
                     </div>
                 </main>
             </div>
+            
             <footer class="account-footer">
                 <div class="container">
                     <p>Website designed and developed by Mia Sohn</p>

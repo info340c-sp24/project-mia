@@ -27,8 +27,8 @@ export default function Archive(){
                 </Link>
             </div>
             </main>
-            
         </div>
+        
         <footer class="archive-footer">
             <div class="container">
             <p>Website designed and developed by Mia Sohn</p>
